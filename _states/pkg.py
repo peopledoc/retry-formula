@@ -82,3 +82,4 @@ class PkgRetried(Retried):
 
 
 installed = PkgRetried('pkg', 'installed').get_function()
+latest = PkgRetried('pkg', 'latest').get_function()
